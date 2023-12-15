@@ -1,0 +1,260 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* styling header */
+.header{
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.logo{
+    padding-left: 20%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+.navbar{
+    padding-left: 30%;
+    padding-top: 3%;
+}
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 2%;
+    color: white;
+}
+/* styling header done */
+
+/* styling banner */
+.banner{
+background: url(/img/kylian-mbappe-psg-france-3-april-2022.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+padding-left: 5%;
+}
+.banner h2{
+    padding-top: 10%;
+    text-transform: capitalize;
+    color: white;
+    font-size: 30px;
+}
+.banner span{
+    color: black;
+}
+.banner button{
+    background-color: crimson;
+    text-transform: capitalize;
+    border: none;
+    padding: 1%;
+    font-size: 18px;
+    margin-top: 1%;
+}
+/* styling banner done */
+
+/* styling content */
+.product{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+.pbox{
+    background-color:beige;
+    text-align: center;
+    border: 1px solid crimson;
+    box-shadow: 0 0 30px 0 chocolate;
+    margin-left: 5%;
+    transition: 1s;
+    margin-bottom: 10%;
+    padding-bottom: 3%;
+}
+.pbox:hover{
+    transform: translateY(-20px);
+}
+.pbox img{
+    height: 200px;
+    padding-top: 1%;
+}
+.pbox h4{
+    padding: 3% 0;
+    color: brown;
+}
+.pbox button{
+    background-color: crimson;
+    text-transform: capitalize;
+    border: none;
+    padding: 10px;
+    border-radius: 1rem;
+    color: white;
+}
+.title{
+text-align: center;
+text-transform: capitalize;
+padding: 2% 0;
+}
+/* styling content done */
+
+/* styling footer */
+.footer{
+    background-color: black;
+    display: flex;
+    padding: 3% 0;
+}
+.fitem{
+    flex-basis: 33.3%;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.fitem ul li{
+    list-style: none;
+    font-size: 18px;
+}
+.icon li{
+    display: inline;
+    margin: 3%;
+    cursor: pointer;
+}
+.icon li:hover{
+    color: gold;
+}
+.fitem i{
+    font-size: 30px;
+}
+/* stling footer done */
+
+/* styling about */
+.about{
+    margin: 3rem 0;
+    padding: 3rem 0;
+    background-color: coral;
+}
+.aboutrow{
+    display: flex;
+}
+.item{
+    flex-basis: 50%;
+    text-align: center;
+    margin: 0 7rem;
+    color: yellow;
+    font-size: 20px;
+}
+.item h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+}
+.item h5{
+    text-transform: capitalize;
+    font-size: large;
+    color: green;
+}
+.item h3{
+    text-transform: uppercase;
+    color: black;
+}
+.item img{
+    margin-top: -30px;
+    border-radius: 2rem;
+    transition: 3s;
+}
+.item img:hover{
+    transform: rotateY(180deg);
+}
+.item:nth-of-type(2){
+    background-color: white;
+    border-radius: 2rem;
+}
+.about title{
+    text-transform: capitalize;
+    text-align: center;
+}
+/* styling about done */
+
+/* styling contact */
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-transform: capitalize;
+    margin:2rem 0 ;
+}
+.contact form{
+    border: 2px solid crimson;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 3%;
+}
+.contact label{
+    font-weight: bold;
+}
+.contact input{
+    margin-top: 1%;
+    width: 100%;
+    height: 25%;
+}
+.contact textarea{
+    margin-top: 1%;
+    width: 100%;
+}
+.contact button{
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    font-weight: bold;
+    padding: 5px 0;
+
+}
+.contact button:hover{
+    color: gold;
+}
+/* styling contact done */
+
+/* styling register */
+.register{
+    text-transform: capitalize;
+    margin:2rem 0 ;
+    
+}
+.register form{
+    border: 2px solid crimson;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 3%;
+    background-color: beige;
+}
+.register label{
+    font-weight: bold;
+}
+.register input{
+    margin-top: 1%;
+    width: 100%;
+    height: 25%;
+}
+.register input[type=checkbox]{
+    width: auto;
+    height: auto;
+}
+.register button{
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.register button:hover{
+    color: gold;
+}
+/* styling register done */
